@@ -156,6 +156,7 @@ const leaveLobby = () => {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  width: 100%;
   padding: 20px;
   background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
 }
