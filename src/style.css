@@ -1,0 +1,138 @@
+:root {
+  /* Brand Colors */
+  --primary: #667eea;
+  --primary-dark: #5568d3;
+  --secondary: #764ba2;
+  --secondary-dark: #5f3d82;
+  --accent: #4ecca3;
+
+  /* Background Colors */
+  --bg-white: #ffffff;
+  --bg-light: #f9f9f9;
+  --bg-lighter: #f0f0f0;
+  --bg-dark: #1a1a2e;
+  --bg-darker: #16213e;
+  --bg-darkest: #0f1620;
+
+  /* Text Colors */
+  --text-primary: #333;
+  --text-secondary: #555;
+  --text-muted: #999;
+  --text-light: #aaa;
+  --text-white: white;
+
+  /* Border Colors */
+  --border-light: #e0e0e0;
+  --border-primary: #667eea;
+
+  /* Status Colors */
+  --success: #4caf50;
+  --success-dark: #45a049;
+  --error: #f44336;
+  --error-dark: #da190b;
+  --warning: #ffc107;
+  --warning-bg: #fff3cd;
+  --warning-text: #856404;
+  --danger: #e94560;
+  --danger-dark: #c73650;
+  --info: green;
+  --info-error: red;
+
+  /* Badge Colors */
+  --badge-host: #ffd700;
+  --badge-you: #667eea;
+
+  /* Error Colors */
+  --error-bg: #fee;
+  --error-border: #fcc;
+  --error-text: #c33;
+
+  /* Disabled State */
+  --disabled: #ccc;
+
+  /* Shadow */
+  --shadow-large: 0 20px 60px rgba(0, 0, 0, 0.3);
+  --shadow-medium: 0 2px 10px rgba(0, 0, 0, 0.3);
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+html, body {
+  height: 100vh;
+  width: 100vw;
+  
+  place-items: center; 
+  
+  margin: 0;
+}
+
+a {
+  color: #646cff;
+  font-weight: 500;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  padding: 0.6em 1.2em;
+  
+  border-radius: 8px;
+  border: 1px solid transparent;
+
+  background-color: #1a1a1a;
+  
+  font-family: inherit;
+
+  font-size: 1em;
+  font-weight: 500;
+  
+  cursor: pointer;
+  
+  transition: border-color 0.25s, transform 0.1s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:active {
+  transform: scale(0.9);
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  margin: 0 auto;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
